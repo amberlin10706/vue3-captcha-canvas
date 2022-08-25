@@ -1,14 +1,16 @@
-# vue-captcha-canvas
+# vue3-captcha-canvas
+
+### for vue3 use
 
 ## install
 ```
-yarn add vue-captcha-canvas
+yarn add vue3-captcha-canvas
 ```
 
 ### usage
 ```
 <script setup>
-import CaptchaImage from "vue-captcha-canvas";
+import CaptchaImage from "vue3-captcha-canvas";
 
 const captchaRef = ref();
 

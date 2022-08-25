@@ -1,10 +1,10 @@
 {
-  "name": "vue-captcha-canvas",
+  "name": "vue3-captcha-canvas",
   "version": "0.1.0",
-  "main": "dist/vue-captcha-canvas.umd.js",
+  "main": "dist/vue3-captcha-canvas.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-captcha-canvas src/components/index.js",
+    "build": "vue-cli-service build --target lib --name vue3-captcha-canvas src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
