@@ -1,6 +1,6 @@
 {
   "name": "vue3-captcha-canvas",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/vue3-captcha-canvas.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",

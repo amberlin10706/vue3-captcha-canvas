@@ -259,7 +259,7 @@ defineExpose({
 </script>
 
 <template>
-  <div style="cursor: pointer" @click="refresh">
+  <div style="cursor: pointer; user-select: none" @click="refresh">
     <canvas
       id="id-canvas"
       :width="contentWidth"
