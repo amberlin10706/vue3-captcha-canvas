@@ -254,6 +254,7 @@ function verify(input) {
 
 defineExpose({
   verify,
+  refresh,
   verifyCode,
 });
 </script>
