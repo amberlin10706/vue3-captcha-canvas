@@ -1,24 +1,23 @@
-# vue-verify-code
+# vue-captcha-canvas
 
-## Project setup
+## install
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
+yarn add vue-captcha-canvas
 ```
 
-### Compiles and minifies for production
+### usage
 ```
-yarn build
-```
+<script setup>
+import CaptchaImage from "vue-captcha-canvas";
 
-### Lints and fixes files
-```
-yarn lint
-```
+const captchaRef = ref();
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+const verify = () => {
+    captchaRef.value.verify("1234")
+}
+</script>
+
+<template>
+    <CaptchaImage ref="captchaRef"/>
+</template>
+```

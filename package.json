@@ -1,10 +1,10 @@
 {
-  "name": "vue-verify-code",
+  "name": "vue-captcha-canvas",
   "version": "0.1.0",
-  "private": true,
+  "main": "dist/vue-captcha-canvas.umd.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-captcha-canvas src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
