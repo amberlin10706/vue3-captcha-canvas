@@ -248,7 +248,16 @@ function refresh() {
   drawPic();
 }
 
-function verify(input) {
+/**
+ * verify input is same as captcha
+ * @param {string} input
+ * @param {boolean} ignoreCase
+ * @returns {boolean}
+ */
+function verify(input, ignoreCase = false) {
+  if (ignoreCase) {
+    return input.toLowerCase() === verifyCode.value.toLowerCase();
+  }
   return input === verifyCode.value;
 }
 
