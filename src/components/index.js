@@ -1,3 +1,3 @@
 import CaptchaImage from "@/components/CaptchaImage";
 
-export default CaptchaImage;
+export { CaptchaImage };

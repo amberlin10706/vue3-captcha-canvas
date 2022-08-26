@@ -10,7 +10,7 @@ yarn add vue3-captcha-canvas
 ### usage
 ```
 <script setup>
-import CaptchaImage from "vue3-captcha-canvas";
+import { CaptchaImage } from "vue3-captcha-canvas";
 
 const captchaRef = ref();
 
