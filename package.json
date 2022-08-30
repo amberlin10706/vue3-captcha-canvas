@@ -22,5 +22,7 @@
   },
   "peerDependencies": {
     "vue": "^3.2.13"
-  }
+  },
+  "repository": "https://github.com/amberlin10706/vue3-captcha-canvas.git",
+  "keywords": ["captcha", "verification code"]
 }

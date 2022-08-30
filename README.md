@@ -1,7 +1,7 @@
 # vue3-captcha-canvas
 
 ### for vue3 use
-![img.png](img.png)
+![img.png](https://raw.githubusercontent.com/amberlin10706/vue3-captcha-canvas/master/img.png)
 
 ## install
 ```
