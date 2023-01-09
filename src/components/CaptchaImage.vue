@@ -130,6 +130,13 @@ const props = defineProps({
     type: Number,
     default: 180,
   },
+  /**
+   * 點擊是否重整
+   */
+  refreshable: {
+    type: Boolean,
+    default: true,
+  },
 });
 
 const codeTypeMap = {
@@ -269,7 +276,11 @@ defineExpose({
 </script>
 
 <template>
-  <div style="cursor: pointer; user-select: none" @click="refresh">
+  <div
+    style="user-select: none"
+    :style="refreshable ? { cursor: 'pointer' } : {}"
+    @click="refreshable && refresh()"
+  >
     <canvas
       id="id-canvas"
       :width="contentWidth"
